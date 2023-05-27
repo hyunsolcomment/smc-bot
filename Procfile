@@ -1,1 +1,1 @@
-worker: npm start
+worker: node ./public/bot.js
