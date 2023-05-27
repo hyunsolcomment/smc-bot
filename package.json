@@ -1,0 +1,14 @@
+{
+  "dependencies": {
+    "discord.js": "^14.11.0",
+    "dotenv": "^16.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22",
+    "typescript": "^5.0.4"
+  },
+  "scripts": {
+    "start": "nodemon --watch src -e ts --exec npm run start-bot",
+    "start-bot": "tsc && node ./public/web.js"
+  }
+}

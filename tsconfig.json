@@ -1,0 +1,8 @@
+{
+    "compilerOptions": {
+        "outDir": "public",
+        "target": "ESNext",
+        "module": "CommonJS"
+    },
+    "include": ["src"]
+}
